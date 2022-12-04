@@ -6,19 +6,19 @@ using namespace std;
 int main()
 {
     int i,j,k,l;
-    cout<<"Menampilkan Selection Sort tanpa menggunakan input"<<endl;
-    cout<<"~~~~~~~~~~~~~~Credit : Aditya Rahmat~~~~~~~~~~~~~~"<<endl;
+    cout<<"Showing Selection Sort without an input"<<endl;
+    cout<<"~~~~~~~~~Credit : Aditya Rahmat~~~~~~~~"<<endl;
     cout<<endl;
 
     int data[n] = {84, 7 , 52, 88, 35, 100, 99, 57, 212};
-    cout<<"Data yang tersedia adalah : "<<endl;
+    cout<<"The existing data : "<<endl;
     for(i=0; i<n; i++)
     {
         cout<<data[i]<<" ";
     }
     cout<<endl;
     cout<<endl;
-    cout<<"Di urutkan secara descending menjadi : "<<endl;
+    cout<<"Sort by descending order : "<<endl;
     k=0;
     while(k<=n)
     {
